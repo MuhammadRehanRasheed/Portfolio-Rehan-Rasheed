@@ -281,3 +281,26 @@
     padding: 0 1rem;
   }
 }
+
+/* Project link styles */
+.body-text a {
+  color: #007bff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.body-text a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Make the link stand out */
+.body-text a[target="_blank"] {
+  padding: 2px 4px;
+  border-radius: 4px;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.body-text a[target="_blank"]:hover {
+  background-color: rgba(0, 123, 255, 0.2);
+}
